@@ -1,0 +1,16 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Custom styles / overwrite predefined styles 
+ * ----------------------------------------------------------------------------------------
+ */
+
+ header {
+ 	background: $primary;
+ }
+
+ aside {
+ 	background: $secondary;
+ 	@include breakpoint(md) {
+		background: $primary;
+	}
+ }

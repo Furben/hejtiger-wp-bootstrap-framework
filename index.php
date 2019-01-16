@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_template_part('menu'); ?>
 
 
 <div class="container">
@@ -22,6 +23,7 @@
             <p>Fandt ikke hvad ud søgte.</p>
         <!-- no posts found -->
         <?php endif; ?>
+
 </div><!-- /.container -->
 
 <?php get_sidebar(); ?>

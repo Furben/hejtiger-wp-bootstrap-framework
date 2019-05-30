@@ -9,14 +9,14 @@
   "author": "Jesper Thabo Rasmussen",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "latest",
+    "browser-sync": "^2.26.5",
     "del": "latest",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "latest",
-    "gulp-cache": "latest",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache": "^1.1.1",
     "gulp-rename": "latest",
     "gulp-sass": "latest",
-    "gulp-sourcemaps": "latest",
-    "gulp-uglify": "latest"
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
   }
 }
